@@ -136,6 +136,8 @@ class _AuctionPageState extends State<AuctionPage> {
                   print('Please fill in all fields.');
                 }
               },
+
+
               child: Text('Submit Auction'),
             ),
           ],
