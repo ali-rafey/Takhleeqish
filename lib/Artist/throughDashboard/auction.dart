@@ -51,6 +51,7 @@ class _AuctionPageState extends State<AuctionPage> {
     });
   }
 
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
