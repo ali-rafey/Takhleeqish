@@ -41,6 +41,8 @@ class _AuctionPageState extends State<AuctionPage> {
     }
   }
 
+
+
   Future<void> _getImage() async {
     final pickedFile = await ImagePicker().pickImage(source: ImageSource.gallery);
 
