@@ -42,7 +42,7 @@ class _AuctionPageState extends State<AuctionPage> {
   }
 
   Future<void> _getImage() async {
-    final pickedFile = await ImagePicker().getImage(source: ImageSource.gallery);
+    final pickedFile = await ImagePicker().pickImage(source: ImageSource.gallery);
 
     setState(() {
       _image = File(pickedFile!.path);
@@ -146,6 +146,9 @@ class _AuctionPageState extends State<AuctionPage> {
     );
   }
 }
+
+
+
 
 void main() {
   runApp(MaterialApp(
